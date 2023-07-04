@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/administracion.css" />
+    <link rel="stylesheet" href="css/searchForm.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="fontello/css/jose.css" />
+   
+    <link rel="shortcut icon" href="img/logo3.jpg" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/barraNavegacion.js"></script>
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo1.jpg" class="logo" alt=""
+          /></a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span id="menu-burger"><i class="icon-menu"></i></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 color">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"
+                  ><i class="icon-inicio"></i>Inicio</a
+                >
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link items" href="institucional.html"
+                  ><i class="icon-maletin"></i>Institucional</a
+                >
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link active" href="carreras.html"
+                  ><i class="icon-inicio"></i>Carreras</a
+                >
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="icon-users"></i> Bedelia
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="./alumnos.html"
+                      ><i class="icon-user"></i>Alumnos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./administracion.html"
+                      ><i class="icon-user"></i>Administración</a
+                    >
+                  </li>
+                </ul>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link items" href="contacto.html"
+                  ><i class="icon-address-book"></i> Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"
+      ></script>
+    <title>Administración</title>
+  </head>
+
+  <body class="row mt-3">
+    <div id="navbar">
+    <div class="row mt-1">
+      <div class="col-12 nuestra-carrera">
+        <h1>Administración</h1>
+      </div>
+      <div>
+        <form action="" id="busqueda-form">
+          <label for="parametro">Selecciona el parametro de busqueda:</label>
+          <select id="parametro" value="">
+            <option value="">Seleccione una opción...</option>
+            <option value="alumno">Alumnos</option>
+            <option value="carrera">Carrera</option>
+            <option value="Materia">Materia</option>
+            <option value="concursos">Concursos</option>
+          </select>
+          <input type="text" id="datoBusc" placeholder="Buscar..." value="" />
+          <button class="bi bi-search" type="" onclick="buscar()">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12 col-sm-6 col-md-6 mb-2">
+        <div class="card" style="width: auto">
+          <div class="col-12 nuestra-carrera">
+            <h1>Bedelia</h1>
+          </div>
+          <br>
+          <div class="card-body-admin">
+            <h5>Tramites que se gestionan desde bedelia</h5>
+            <h6>
+              <ul>
+                <li>Recepción y almacenamiento de programas de catedra</li>
+                <li>
+                  Solicitud de informes para la realización de equivalencias
+                </li>
+                <li>
+                  Distribución de aulas y gestión de espacios de la Facultad
+                </li>
+                <li>
+                  Reserva de equipos informáticos, de sonido, de proyección para
+                  clases y otros eventos.
+                </li>
+                <li>Mesas Especiales según RES “CD” 010/04</li>
+              </ul>
+              <button type="submit" class="btn btn-primary mb-2 boton">
+                DISTRIBUCIÓN DE AULAS Y GESTIÓN DE ESPACIOS
+              </button>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 mb-2">
+        <div class="card" style="width: auto">
+          <div class="col-12 nuestra-carrera">
+            <h1>Tramites</h1>
+          </div>
+          <div class="card-body-admin">
+            <h3>Siu Guarani</h3>
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button">Alumnos</button> <p></p>
+                </h2>
+                <div class="accordion-content">
+                  <a href="alumnos.html">Agregar alumno</a>
+                  <a href="tablaAlumn.html">Listado alumnos</a>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button">Carreras</button> <p></p>
+                </h2>
+                <div class="accordion-content">
+                  <a href="formCarreras.html">Agregar carrera</a>
+                  <a href="tablaCarreras.html">Listado de carreras</a>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">Materias</button>
+                  </h2>
+                  <div class="accordion-content">
+                    <a href="formMaterias.html">Agregar materia</a>
+                    <a href="tablaMaterias.html">Listado de materias</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="pruebas.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Introducción a la Administración",
+    "horas_semanales": 6,
+    "carrera": "Administración de Empresas"
+  },
+  {
+    "id": 2,
+    "nombre": "Contabilidad Financiera",
+    "horas_semanales": 8,
+    "carrera": "Contabilidad"
+  },
+  {
+    "id": 3,
+    "nombre": "Gestión de Recursos Humanos",
+    "horas_semanales": 6,
+    "carrera": "Administración de Recursos Humanos"
+  },
+  {
+    "id": 4,
+    "nombre": "Marketing Estratégico",
+    "horas_semanales": 8,
+    "carrera": "Marketing"
+  },
+  {
+    "id": 5,
+    "nombre": "Análisis de Decisiones",
+    "horas_semanales": 6,
+    "carrera": "Administración de Empresas"
+  },
+  {
+    "id": 6,
+    "nombre": "Economía Empresarial",
+    "horas_semanales": 8,
+    "carrera": "Economía"
+  },
+  {
+    "id": 7,
+    "nombre": "Derecho Comercial",
+    "horas_semanales": 6,
+    "carrera": "Derecho"
+  },
+  {
+    "id": 8,
+    "nombre": "Estadística Aplicada",
+    "horas_semanales": 6,
+    "carrera": "Estadística"
+  },
+  {
+    "id": 9,
+    "nombre": "Finanzas Corporativas",
+    "horas_semanales": 8,
+    "carrera": "Finanzas"
+  },
+  {
+    "id": 10,
+    "nombre": "Comportamiento Organizacional",
+    "horas_semanales": 6,
+    "carrera": "Psicología Organizacional"
+  }
+]

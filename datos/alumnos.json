@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "dni": "12345678",
+    "fecha_nacimiento": "1990-01-01",
+    "nacionalidad": "Uruguay",
+    "correo_electronico": "juan@example.com",
+    "celular": "1234567890",
+    "carreraId": 1,
+    "materiaId": 101
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "González",
+    "dni": "87654321",
+    "fecha_nacimiento": "1992-05-10",
+    "nacionalidad": "Argentina",
+    "correo_electronico": "maria@example.com",
+    "celular": "0987654321",
+    "carreraId": 2,
+    "materiaId": 201
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "apellido": "López",
+    "dni": "56789012",
+    "fecha_nacimiento": "1991-11-15",
+    "nacionalidad": "Nicaragua",
+    "correo_electronico": "carlos@example.com",
+    "celular": "1122334455",
+    "carreraId": 1,
+    "materiaId": 102
+  },
+  {
+    "id": 4,
+    "nombre": "Luis",
+    "apellido": "Martínez",
+    "dni": "98765432",
+    "fecha_nacimiento": "1993-08-20",
+    "nacionalidad": "Mexico",
+    "correo_electronico": "luis@example.com",
+    "celular": "9876543210",
+    "carreraId": 2,
+    "materiaId": 202
+  },
+  {
+    "id": 5,
+    "nombre": "Ana",
+    "apellido": "Sánchez",
+    "dni": "23456789",
+    "fecha_nacimiento": "1994-03-25",
+    "nacionalidad": "Argentina",
+    "correo_electronico": "ana@example.com",
+    "celular": "5678901234",
+    "carreraId": 1,
+    "materiaId": 101
+  },
+  {
+    "id": 6,
+    "nombre": "Pedro",
+    "apellido": "Rodríguez",
+    "dni": "34567890",
+    "fecha_nacimiento": "1995-12-03",
+    "nacionalidad": "Argentina",
+    "correo_electronico": "pedro@example.com",
+    "celular": "6789012345",
+    "carreraId": 2,
+    "materiaId": 201
+  },
+  {
+    "id": 7,
+    "nombre": "Laura",
+    "apellido": "López",
+    "dni": "89012345",
+    "fecha_nacimiento": "1996-07-12",
+    "nacionalidad": "Chile",
+    "correo_electronico": "laura@example.com",
+    "celular": "7890123456",
+    "carreraId": 1,
+    "materiaId": 102
+  },
+  {
+    "id": 8,
+    "nombre": "Diego",
+    "apellido": "Hernández",
+    "dni": "43210987",
+    "fecha_nacimiento": "1997-02-05",
+    "nacionalidad": "Argentina",
+    "correo_electronico": "diego@example.com",
+    "celular": "8901234567",
+    "carreraId": 2,
+    "materiaId": 202
+  },
+  {
+    "id": 9,
+    "nombre": "Carolina",
+    "apellido": "Gómez",
+    "dni": "65432109",
+    "fecha_nacimiento": "1998-09-18",
+    "nacionalidad": "Brasil",
+    "correo_electronico": "carolina@example.com",
+    "celular": "9012345678",
+    "carreraId": 1,
+    "materiaId": 101
+  },
+  {
+    "id": 10,
+    "nombre": "Javier",
+    "apellido": "Torres",
+    "dni": "98765432",
+    "fecha_nacimiento": "1999-04-30",
+    "nacionalidad": "Argentina",
+    "correo_electronico": "javier@example.com",
+    "celular": "0123456789",
+    "carreraId": 2,
+    "materiaId": 201
+  }
+]
